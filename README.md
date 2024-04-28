@@ -52,6 +52,26 @@ ilişkili veya ilişkisiz tabloları belirli kodlar ile(JOIN,INNER JOIN, LEFT J,
 
 
 
+PROJENİN YÜKLENMESİ VE ÇALIŞIR HALE GETİRİLMESİ
+
+
+
+
+Proje PHP tabalı bir proje olduğu için öncelikle XAMPP bilgisayarınızda kurulu olmadı gerekmektedir. Çünkü bir apache modülüne ihtiyacımız var. Apache tomcat indirerek de gerekli ayarları yaparak projeyi çalışır hale getirebilirsiniz. Repoyu indirip inen dosya içerisinde ki .sql uzantılı veritabani belgesini kullandığınız veritabanının çalışma ortamına aktarmanız gerekiyor fakat öncelikle bir veritabanı oluşturmanı gerekiyor. Kodlardan gerekli değişiklikleri yaparak veritabanı adını siz de belirleyebilirsiniz. Hemen yapılması gereken değişiklikleri aşağıda ki fotoğraf üzerinde gösteriyor olacağım.
+
+![SS](https://github.com/brokolifha/veriTabaniProje/assets/41892833/de3dc27f-c3df-468f-9e80-9cad6e978c83)
+
+Fotoğrafta görünen değişiklikleri yaparak proje içerisinde var olan tabloları indexleri, viewleri, triggerları kendi veritabanımız içerisine dahil ettik. Sonrasında(XAMPP Kullanıcıları için) c:\ dizini altında xampp klasörünü bulun.
+xampp klasörü içerisine girin ve "htdocs" klasörünün içerisinde projenin geri kalan dosyalarını aktarabilirsiniz.
+Sonrasında xampp control paneli açıp apache sunucunuzu başlatınız.
+htdocs içeride oluşturuğunuz klasör adını "proje" olarak adlandırdığınızı varsayarsak "localhost:80/proje" yazarak projeye ulaşıp kullanmaya başlayabilirsiniz.
+
+
+
+
+
+
+
 
 
 
